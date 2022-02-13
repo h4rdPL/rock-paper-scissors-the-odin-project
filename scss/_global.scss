@@ -1,0 +1,19 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+// variables
+
+$bgColor: #292929;
+$fontColor: #fff;
+$font: 'Poppins', sans-serif;
+// global settings
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font;
+    width: 100%;
+}
