@@ -27,7 +27,7 @@ const userPlay = (e) => {
 const userWin = () => {
     console.log(`End game!`);
     // console.log(board)
-    board.innerHTML = `This is end of the game, you win ${userPoint} to ${computerPoint} in ${roundCounter} rounds`;
+    board.innerHTML = `This is the end of the game, you win ${userPoint} to ${computerPoint} in ${roundCounter} rounds`;
     
 }
 
